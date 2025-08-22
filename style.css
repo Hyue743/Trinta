@@ -50,6 +50,7 @@ hr {
 @media (max-width: 600px) {
     .container {
         padding: 20px;
+        max-width: 90%;
     }
 
     h1 {
@@ -57,11 +58,12 @@ hr {
     }
 
     .poema {
-        font-size: 1em;
+        font-size: 1.2em; /* Mantém a métrica */
+        line-height: 1.8;
     }
 
     .autor {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 }
 
