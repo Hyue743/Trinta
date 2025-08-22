@@ -48,15 +48,39 @@ hr {
     margin: 40px 0;
 }
 @media (max-width: 600px) {
-    body {
+    .container {
         padding: 20px;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .poema {
         font-size: 1em;
+    }
+
+    .autor {
+        font-size: 0.9em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+        padding: 60px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .poema {
+        font-size: 1.5em;
+    }
+
+    .autor {
+        font-size: 1.1em;
     }
 }
